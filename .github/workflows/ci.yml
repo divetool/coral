@@ -30,3 +30,26 @@ jobs:
     uses: nrwl/ci/.github/workflows/nx-cloud-agents.yml@v0.7
     with:
       number-of-agents: 3
+  
+  e2e:
+    name: Run e2e
+    needs: [ci, agents]
+    runs-on: ubuntu-latest
+    env:
+      NX_BASE: origin/main
+      NX_HEAD: HEAD
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'pnpm'
+          cache-dependency-path: pnpm-lock.yaml
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Run e2e tests
+        run: pnpm exec nx affected --target=e2e --parallel=1
