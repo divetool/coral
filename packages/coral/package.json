@@ -1,6 +1,8 @@
 {
   "name": "@divetool/coral",
+  "description": "🪸 Coral Design System by DiveTool",
   "version": "0.0.1",
+  "private": "false",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.js",
   "es2015": "./dist/esm/index.mjs",
@@ -12,5 +14,23 @@
   "files": [
     "dist/",
     "loader/"
-  ]
+  ],
+  "keywords": [
+    "Monorepo",
+    "Design-System",
+    "Stencil",
+    "Component Library",
+    "Web Components"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/divetool/coral"
+  },
+  "bugs": {
+    "url": "https://github.com/divetool/coral/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
