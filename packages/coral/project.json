@@ -1,0 +1,66 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/coral/src",
+  "projectType": "library",
+  "generators": {
+    "@nxext/stencil:component": {
+      "style": "scss"
+    }
+  },
+  "tags": ["scope:coral"],
+  "targets": {
+    "build": {
+      "executor": "@nxext/stencil:build",
+      "outputs": ["{options.outputPath}", "packages/coral-react/src/generated"],
+      "options": {
+        "projectType": "library",
+        "tsConfig": "packages/coral/tsconfig.lib.json",
+        "configPath": "packages/coral/stencil.config.ts",
+        "outputPath": "dist/packages/coral"
+      },
+      "configurations": {
+        "production": {
+          "dev": false,
+          "prod": true
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nxext/stencil:serve",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "projectType": "library",
+        "tsConfig": "packages/coral/tsconfig.lib.json",
+        "configPath": "packages/coral/stencil.config.ts",
+        "outputPath": "dist/packages/coral"
+      }
+    },
+    "test": {
+      "executor": "@nxext/stencil:test",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "projectType": "library",
+        "tsConfig": "packages/coral/tsconfig.lib.json",
+        "configPath": "packages/coral/stencil.config.ts",
+        "outputPath": "dist/packages/coral"
+      }
+    },
+    "e2e": {
+      "executor": "@nxext/stencil:e2e",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "projectType": "library",
+        "tsConfig": "packages/coral/tsconfig.lib.json",
+        "configPath": "packages/coral/stencil.config.ts",
+        "outputPath": "dist/packages/coral"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/coral/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  }
+}

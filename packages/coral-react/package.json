@@ -1,0 +1,22 @@
+{
+  "name": "@divetool/coral-react",
+  "version": "0.0.1",
+  "keywords": [
+    "Monorepo",
+    "Design-System",
+    "Stencil",
+    "Component Library",
+    "Web Components"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/divetool/coral"
+  },
+  "bugs": {
+    "url": "https://github.com/divetool/coral/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
