@@ -30,7 +30,7 @@ jobs:
     uses: nrwl/ci/.github/workflows/nx-cloud-agents.yml@v0.7
     with:
       number-of-agents: 3
-  
+
   e2e:
     name: Run e2e
     needs: [ci, agents]
