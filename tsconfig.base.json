@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@divetool/coral": ["dist/libs/coral"],
+      "@divetool/coral/*": ["dist/libs/coral/dist/components/*"],
+      "@divetool/coral/loader": ["dist/libs/coral/loader"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

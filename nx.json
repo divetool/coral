@@ -1,7 +1,7 @@
 {
   "extends": "nx/presets/npm.json",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "coral",
+  "npmScope": "divetool",
   "affected": {
     "defaultBase": "main"
   },
@@ -9,14 +9,17 @@
     "default": {
       "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": [
-          "build",
-          "lint",
-          "test",
-          "e2e"
-        ],
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
         "accessToken": "MzY2NjJhODEtMzUwZC00NjMwLTkyZGItMDBlOThiOTJkMDdjfHJlYWQ="
       }
+    }
+  },
+  "cli": {
+    "defaultCollection": "@nxext/stencil"
+  },
+  "targetDefaults": {
+    "test": {
+      "inputs": ["default", "^default", "{workspaceRoot}/jest.preset.js"]
     }
   }
 }
