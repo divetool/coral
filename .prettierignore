@@ -2,3 +2,6 @@
 
 /dist
 /coverage
+
+# Stencil Generated files
+packages/coral-react/**/generated

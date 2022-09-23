@@ -15,9 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@divetool/coral": ["dist/libs/coral"],
-      "@divetool/coral/*": ["dist/libs/coral/dist/components/*"],
-      "@divetool/coral/loader": ["dist/libs/coral/loader"]
+      "@divetool/coral": ["dist/packages/coral"],
+      "@divetool/coral-react": ["packages/coral-react/src/index.ts"],
+      "@divetool/coral/*": ["dist/packages/coral/dist/components/*"],
+      "@divetool/coral/loader": ["dist/packages/coral/loader"]
     }
   },
   "exclude": ["node_modules", "tmp"]

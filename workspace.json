@@ -2,6 +2,7 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "coral": "packages/coral"
+    "coral": "packages/coral",
+    "coral-react": "packages/coral-react"
   }
 }
