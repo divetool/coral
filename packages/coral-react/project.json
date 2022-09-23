@@ -3,7 +3,7 @@
   "sourceRoot": "packages/coral-react/src",
   "projectType": "library",
   "implicitDependencies": ["coral"],
-  "tags": [],
+  "tags": ["scope:coral-react"],
   "targets": {
     "build": {
       "executor": "@nrwl/web:rollup",
@@ -29,7 +29,8 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["packages/coral-react/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["packages/coral-react/**/*.{ts,tsx,js,jsx}"],
+        "ignorePath": "packages/coral-react/.eslintignore"
       }
     },
     "test": {
