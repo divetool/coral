@@ -18,6 +18,9 @@
     "defaultCollection": "@nxext/stencil"
   },
   "targetDefaults": {
+    "build": {
+      "dependsOn": ["^build"]
+    },
     "test": {
       "inputs": ["default", "^default", "{workspaceRoot}/jest.preset.js"]
     },

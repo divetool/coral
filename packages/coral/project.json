@@ -11,7 +11,7 @@
   "targets": {
     "build": {
       "executor": "@nxext/stencil:build",
-      "outputs": ["{options.outputPath}"],
+      "outputs": ["{options.outputPath}", "packages/coral-react/src/generated"],
       "options": {
         "projectType": "library",
         "tsConfig": "packages/coral/tsconfig.lib.json",

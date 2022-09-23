@@ -2,6 +2,7 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/coral-react/src",
   "projectType": "library",
+  "implicitDependencies": ["coral"],
   "tags": [],
   "targets": {
     "build": {
