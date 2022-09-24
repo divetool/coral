@@ -36,7 +36,6 @@
     "eslint-plugin-react": "7.31.8",
     "eslint-plugin-react-hooks": "4.6.0",
     "jest": "27.4.1",
-    "jest-cli": "27.4.1",
     "jest-environment-jsdom": "27.4.1",
     "nx": "14.7.11",
     "prettier": "^2.6.2",
