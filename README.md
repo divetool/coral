@@ -8,7 +8,7 @@
 
 ## Projects
 
-| Name | Package | Version |
-| --- | --- | --- |
-| Coral | [`@divetool/coral`](https://www.npmjs.com/package/@divetool/coral) | [![version](https://img.shields.io/npm/v/@divetool/coral/latest.svg)](https://www.npmjs.com/package/@divetool/coral)     |
+| Name        | Package                                                                        | Version                                                                                                                          |
+| ----------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| Coral       | [`@divetool/coral`](https://www.npmjs.com/package/@divetool/coral)             | [![version](https://img.shields.io/npm/v/@divetool/coral/latest.svg)](https://www.npmjs.com/package/@divetool/coral)             |
 | Coral React | [`@divetool/coral-react`](https://www.npmjs.com/package/@divetool/coral-react) | [![version](https://img.shields.io/npm/v/@divetool/coral-react/latest.svg)](https://www.npmjs.com/package/@divetool/coral-react) |
