@@ -44,5 +44,9 @@
       }
     }
   },
-  "defaultProject": "myapp"
+  "workspaceLayout": {
+    "appsDir": "apps",
+    "libsDir": "packages"
+  },
+  "defaultProject": "coral"
 }
