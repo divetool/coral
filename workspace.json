@@ -3,6 +3,35 @@
   "version": 2,
   "projects": {
     "coral": "packages/coral",
+    "coral-e2e": {
+      "root": "packages/coral-e2e",
+      "sourceRoot": "packages/coral-e2e/src",
+      "projectType": "application",
+      "targets": {
+        "e2e": {
+          "executor": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "packages/coral-e2e/cypress.config.ts",
+            "devServerTarget": "coral:storybook",
+            "testingType": "e2e"
+          },
+          "configurations": {
+            "ci": {
+              "devServerTarget": "coral:storybook:ci"
+            }
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["packages/coral-e2e/**/*.{js,ts}"]
+          }
+        }
+      },
+      "tags": [],
+      "implicitDependencies": ["coral"]
+    },
     "coral-react": "packages/coral-react"
   }
 }
