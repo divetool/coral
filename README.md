@@ -4,7 +4,7 @@
 
 <p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="100"></p>
 
-> Corals 🪸 are a reef's building blocks, so they are for DiveTool.
+> Corals 🪸 are a reef's basic components, so they are for [DiveTool](https://github.com/divetool/divetool).
 
 ## Projects
 
