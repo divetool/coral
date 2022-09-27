@@ -3,7 +3,6 @@
   "version": 2,
   "projects": {
     "coral": "packages/coral",
-    "coral-e2e": "apps/coral-e2e",
     "coral-react": "packages/coral-react"
   }
 }
