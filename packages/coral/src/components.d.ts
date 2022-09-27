@@ -6,6 +6,20 @@
  */
 import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 export namespace Components {
+  interface CrlButton {
+    /**
+     * The first name
+     */
+    first: string;
+    /**
+     * The last name
+     */
+    last: string;
+    /**
+     * The middle name
+     */
+    middle: string;
+  }
   interface MyComponent {
     /**
      * The first name
@@ -22,6 +36,13 @@ export namespace Components {
   }
 }
 declare global {
+  interface HTMLCrlButtonElement
+    extends Components.CrlButton,
+      HTMLStencilElement {}
+  var HTMLCrlButtonElement: {
+    prototype: HTMLCrlButtonElement;
+    new (): HTMLCrlButtonElement;
+  };
   interface HTMLMyComponentElement
     extends Components.MyComponent,
       HTMLStencilElement {}
@@ -30,10 +51,25 @@ declare global {
     new (): HTMLMyComponentElement;
   };
   interface HTMLElementTagNameMap {
+    'crl-button': HTMLCrlButtonElement;
     'my-component': HTMLMyComponentElement;
   }
 }
 declare namespace LocalJSX {
+  interface CrlButton {
+    /**
+     * The first name
+     */
+    first?: string;
+    /**
+     * The last name
+     */
+    last?: string;
+    /**
+     * The middle name
+     */
+    middle?: string;
+  }
   interface MyComponent {
     /**
      * The first name
@@ -49,6 +85,7 @@ declare namespace LocalJSX {
     middle?: string;
   }
   interface IntrinsicElements {
+    'crl-button': CrlButton;
     'my-component': MyComponent;
   }
 }
@@ -56,6 +93,8 @@ export { LocalJSX as JSX };
 declare module '@stencil/core' {
   export namespace JSX {
     interface IntrinsicElements {
+      'crl-button': LocalJSX.CrlButton &
+        JSXBase.HTMLAttributes<HTMLCrlButtonElement>;
       'my-component': LocalJSX.MyComponent &
         JSXBase.HTMLAttributes<HTMLMyComponentElement>;
     }

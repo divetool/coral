@@ -2,7 +2,6 @@
   "name": "@divetool/coral",
   "description": "🪸 Coral Design System by DiveTool",
   "version": "0.0.1",
-  "private": "false",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.js",
   "es2015": "./dist/esm/index.mjs",
@@ -10,7 +9,7 @@
   "types": "./dist/types/index.d.ts",
   "collection": "./dist/collection/collection-manifest.json",
   "collection:main": "./dist/collection/index.js",
-  "unpkg": "./dist/coral/coral.js",
+  "unpkg": "./dist/coral/coral.esm.js",
   "files": [
     "dist/",
     "loader/"

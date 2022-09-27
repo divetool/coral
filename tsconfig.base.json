@@ -21,5 +21,10 @@
       "@divetool/coral/loader": ["dist/packages/coral/loader"]
     }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": ["node_modules", "tmp"],
+  "references": [
+    {
+      "path": "./.storybook/tsconfig.json"
+    }
+  ]
 }
