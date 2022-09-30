@@ -1,26 +1,28 @@
-import {
-  renderVdom,
-  registerHost,
-  getHostRef,
-} from '@stencil/core/internal/client';
 import { defineCustomElements } from '@divetool/coral/loader';
+import { renderVdom } from '@stencil/core/internal/client';
 
 defineCustomElements();
 
-const rootElement = document.getElementById('root');
-const storyRoot = document.createElement('div');
-rootElement.parentElement.appendChild(storyRoot);
+const stencilWrapper = (storyFn, context) => {
+  const host = document.createElement('div');
+  renderVdom(
+    {
+      $ancestorComponent$: undefined,
+      $flags$: 0,
+      $modeName$: undefined,
+      $cmpMeta$: {
+        $flags$: 0,
+        $tagName$: 'div',
+      },
+      $hostElement$: host,
+    },
+    storyFn(context)
+  );
+  return host.children[0];
+};
 
-registerHost(storyRoot, { $flags$: 0, $tagName$: 'story-root' });
-const hostRef = getHostRef(storyRoot);
+export const decorators = [stencilWrapper];
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
 };
-
-export const decorators = [
-  (Story) => {
-    renderVdom(hostRef, Story());
-    return '<div />';
-  },
-];
