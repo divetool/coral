@@ -1,0 +1,43 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "implicitDependencies": ["coral"],
+  "sourceRoot": "packages/coral-angular/src",
+  "prefix": "divetool",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/angular:package",
+      "outputs": ["dist/packages/coral-angular"],
+      "options": {
+        "project": "packages/coral-angular/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "packages/coral-angular/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "packages/coral-angular/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/coral-angular"],
+      "options": {
+        "jestConfig": "packages/coral-angular/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "packages/coral-angular/**/*.ts",
+          "packages/coral-angular/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

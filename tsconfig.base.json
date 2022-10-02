@@ -16,9 +16,9 @@
     "baseUrl": ".",
     "paths": {
       "@divetool/coral": ["dist/packages/coral"],
+      "@divetool/coral-angular": ["packages/coral-angular/src/index.ts"],
       "@divetool/coral-react": ["packages/coral-react/src/index.ts"],
-      "@divetool/coral/*": ["dist/packages/coral/dist/components/*"],
-      "@divetool/coral/loader": ["dist/packages/coral/loader"]
+      "@divetool/coral/*": ["dist/packages/coral/*"]
     }
   },
   "exclude": ["node_modules", "tmp"],
