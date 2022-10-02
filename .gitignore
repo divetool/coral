@@ -43,3 +43,6 @@ nx-cloud.env
 
 # Stencil Generated files
 packages/coral-react/**/generated
+
+.angular
+packages/coral-angular/**/generated

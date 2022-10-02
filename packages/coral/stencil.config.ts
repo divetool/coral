@@ -4,6 +4,13 @@ import { sass } from '@stencil/sass';
 
 import { reactOutputTarget } from '@stencil/react-output-target';
 
+import {
+  angularOutputTarget,
+  ValueAccessorConfig,
+} from '@stencil/angular-output-target';
+
+const angularValueAccessorBindings: ValueAccessorConfig[] = [];
+
 export const config: Config = {
   namespace: 'coral',
   taskQueue: 'async',
@@ -27,6 +34,15 @@ export const config: Config = {
       componentCorePackage: '@divetool/coral',
       proxiesFile: '../../../packages/coral-react/src/generated/components.ts',
       includeDefineCustomElements: true,
+    }),
+    angularOutputTarget({
+      componentCorePackage: '@divetool/coral/dist',
+      directivesProxyFile:
+        '../../../packages/coral-angular/src/lib/generated/components.ts',
+      directivesArrayFile:
+        '../../../packages/coral-angular/src/lib/generated/index.ts',
+      valueAccessorConfigs: angularValueAccessorBindings,
+      includeImportCustomElements: true,
     }),
   ],
 };

@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "coral": "packages/coral",
+    "coral-angular": "packages/coral-angular",
     "coral-react": "packages/coral-react"
   }
 }
