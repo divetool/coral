@@ -20,4 +20,4 @@
 
 ## Credits
 
-- Logo “[Coral, diving, nature icon](https://www.iconfinder.com/icons/8935918/coral_diving_nature_ocean_reef_icon)” by [Lima Studio](https://www.iconfinder.com/khrl11) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). 
+- Logo “[Coral, diving, nature icon](https://www.iconfinder.com/icons/8935918/coral_diving_nature_ocean_reef_icon)” by [Lima Studio](https://www.iconfinder.com/khrl11) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
