@@ -17,3 +17,7 @@
 | Coral         | [`@divetool/coral`](https://www.npmjs.com/package/@divetool/coral)               | [![version](https://img.shields.io/npm/v/@divetool/coral/latest.svg)](https://www.npmjs.com/package/@divetool/coral)                 |
 | Coral React   | [`@divetool/coral-react`](https://www.npmjs.com/package/@divetool/coral-react)   | [![version](https://img.shields.io/npm/v/@divetool/coral-react/latest.svg)](https://www.npmjs.com/package/@divetool/coral-react)     |
 | Coral Angular | [`@divetool/coral-angular`](https://www.npmjs.com/package/@divetool/coral-react) | [![version](https://img.shields.io/npm/v/@divetool/coral-angular/latest.svg)](https://www.npmjs.com/package/@divetool/coral-angular) |
+
+## Credits
+
+- Logo “[Coral, diving, nature icon](https://www.iconfinder.com/icons/8935918/coral_diving_nature_ocean_reef_icon)” by [Lima Studio](https://www.iconfinder.com/khrl11) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). 
