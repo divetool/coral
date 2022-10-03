@@ -20,6 +20,6 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@divetool/coral": "*"
+    "@divetool/coral": "file:../coral"
   }
 }
