@@ -41,6 +41,10 @@ Thumbs.db
 # NX Cloud
 nx-cloud.env
 
+# Lerna creates this
+CHANGELOG.md
+lerna-debug.log
+
 # Stencil Generated files
 packages/coral-react/**/generated
 
