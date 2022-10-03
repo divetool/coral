@@ -14,9 +14,9 @@
 
 | Name          | Package                                                                          | Version                                                                                                                              |
 | ------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| Coral         | [`@divetool/coral`](https://www.npmjs.com/package/@divetool/coral)               | [![version](https://img.shields.io/npm/v/@divetool/coral/latest.svg)](https://www.npmjs.com/package/@divetool/coral)                 |
-| Coral React   | [`@divetool/coral-react`](https://www.npmjs.com/package/@divetool/coral-react)   | [![version](https://img.shields.io/npm/v/@divetool/coral-react/latest.svg)](https://www.npmjs.com/package/@divetool/coral-react)     |
-| Coral Angular | [`@divetool/coral-angular`](https://www.npmjs.com/package/@divetool/coral-react) | [![version](https://img.shields.io/npm/v/@divetool/coral-angular/latest.svg)](https://www.npmjs.com/package/@divetool/coral-angular) |
+| Coral         | [`@divetool/coral`](https://www.npmjs.com/package/@divetool/coral)               | [![version](https://img.shields.io/npm/v/@divetool/coral/latest.svg?color=04989e)](https://www.npmjs.com/package/@divetool/coral)                 |
+| Coral React   | [`@divetool/coral-react`](https://www.npmjs.com/package/@divetool/coral-react)   | [![version](https://img.shields.io/npm/v/@divetool/coral-react/latest.svg?color=04989e)](https://www.npmjs.com/package/@divetool/coral-react)     |
+| Coral Angular | [`@divetool/coral-angular`](https://www.npmjs.com/package/@divetool/coral-react) | [![version](https://img.shields.io/npm/v/@divetool/coral-angular/latest.svg?color=04989e)](https://www.npmjs.com/package/@divetool/coral-angular) |
 
 ## Credits
 
