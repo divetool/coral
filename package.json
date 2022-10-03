@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "format": "nx format --all",
+    "format:check": "nx format:check --all",
     "postinstall": "ngcc --properties es2020 browser module main"
   },
   "private": true,
