@@ -9,7 +9,8 @@
       "executor": "@nrwl/angular:package",
       "outputs": ["dist/packages/coral-angular"],
       "options": {
-        "project": "packages/coral-angular/ng-package.json"
+        "project": "packages/coral-angular/ng-package.json",
+        "updateBuildableProjectDepsInPackageJson": false
       },
       "configurations": {
         "production": {

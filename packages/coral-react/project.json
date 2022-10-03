@@ -17,6 +17,7 @@
         "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
         "compiler": "babel",
         "skipTypeField": true,
+        "updateBuildableProjectDepsInPackageJson": false,
         "assets": [
           {
             "glob": "packages/coral-react/README.md",
