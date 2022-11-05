@@ -4,6 +4,7 @@
   "projects": {
     "coral": "packages/coral",
     "coral-angular": "packages/coral-angular",
-    "coral-react": "packages/coral-react"
+    "coral-react": "packages/coral-react",
+    "coral-tokens": "packages/coral-tokens"
   }
 }
