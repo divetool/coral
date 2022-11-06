@@ -8,7 +8,7 @@ const setHslColor = (color: chroma.Color, lightness: number) => {
 };
 
 export const colorTransform = (token) => {
-  const { value, modify = [] } = token; 
+  const { value, modify = [] } = token;
   let color = chroma(value);
 
   // iterate over the modify array (see tokens/color.json)

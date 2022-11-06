@@ -6,14 +6,19 @@ const config: Config = {
     scss: {
       transformGroup: 'scss',
       buildPath: 'scss/',
-      transforms: [`attribute/cti`, `name/cti/kebab`, `shades-transform`, `color/hex`],
+      transforms: [
+        `attribute/cti`,
+        `name/cti/kebab`,
+        `shades-transform`,
+        `color/hex`,
+      ],
       files: [
         {
           destination: '_variables.scss',
           format: 'scss/variables',
         },
       ],
-    }
+    },
   },
 };
 
