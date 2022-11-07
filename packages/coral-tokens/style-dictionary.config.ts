@@ -18,18 +18,18 @@ const config: Config = {
           format: 'scss/variables',
           filter: {
             attributes: {
-              category: 'font_size'
-            }
-          }
+              category: 'font_size',
+            },
+          },
         },
         {
           destination: '_colors.scss',
           format: 'scss/variables',
           filter: {
             attributes: {
-              category: 'color'
-            }
-          }
+              category: 'color',
+            },
+          },
         },
       ],
     },
@@ -48,22 +48,22 @@ const config: Config = {
           destination: 'typography.js',
           filter: {
             attributes: {
-              category: 'font_size'
-            }
-          }
+              category: 'font_size',
+            },
+          },
         },
         {
           format: 'javascript/es6',
           destination: 'color.js',
           filter: {
             attributes: {
-              category: 'color'
-            }
-          }
-        }
+              category: 'color',
+            },
+          },
+        },
       ],
     },
-    'typings': {
+    typings: {
       buildPath: '/',
       transformGroup: 'js',
       files: [
@@ -71,12 +71,12 @@ const config: Config = {
           destination: 'index.d.ts',
           format: 'typescript/es6-declarations',
         },
-      ]
+      ],
     },
     'npm-module': {
       buildPath: '/',
       actions: ['generate_npm_module'],
-    }
+    },
   },
 };
 
