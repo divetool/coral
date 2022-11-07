@@ -2,10 +2,12 @@
   "color": {
     "primary": {
       "0": {
-        "value": "#751aff"
+        "value": "#751aff",
+        "category": "color"
       },
       "10": {
         "value": "{color.primary.0}",
+        "category": "color",
         "modify": [
           {
             "type": "set",
@@ -15,6 +17,7 @@
       },
       "20": {
         "value": "{color.primary.0}",
+        "category": "color",
         "modify": [
           {
             "type": "set",
@@ -24,6 +27,7 @@
       },
       "30": {
         "value": "{color.primary.0}",
+        "category": "color",
         "modify": [
           {
             "type": "set",
@@ -33,6 +37,7 @@
       },
       "40": {
         "value": "{color.primary.0}",
+        "category": "color",
         "modify": [
           {
             "type": "set",
@@ -42,6 +47,7 @@
       },
       "50": {
         "value": "{color.primary.0}",
+        "category": "color",
         "modify": [
           {
             "type": "set",
@@ -51,6 +57,7 @@
       },
       "60": {
         "value": "{color.primary.0}",
+        "category": "color",
         "modify": [
           {
             "type": "set",
@@ -61,10 +68,12 @@
     },
     "secondary": {
       "0": {
-        "value": "#ff751a"
+        "value": "#ff751a",
+        "category": "color"
       },
       "10": {
         "value": "{color.secondary.0}",
+        "category": "color",
         "modify": [
           {
             "type": "set",
@@ -74,6 +83,7 @@
       },
       "20": {
         "value": "{color.secondary.0}",
+        "category": "color",
         "modify": [
           {
             "type": "set",
@@ -83,6 +93,7 @@
       },
       "30": {
         "value": "{color.secondary.0}",
+        "category": "color",
         "modify": [
           {
             "type": "set",
@@ -92,6 +103,7 @@
       },
       "40": {
         "value": "{color.secondary.0}",
+        "category": "color",
         "modify": [
           {
             "type": "set",
@@ -101,6 +113,7 @@
       },
       "50": {
         "value": "{color.secondary.0}",
+        "category": "color",
         "modify": [
           {
             "type": "set",
@@ -110,6 +123,7 @@
       },
       "60": {
         "value": "{color.secondary.0}",
+        "category": "color",
         "modify": [
           {
             "type": "set",
@@ -120,10 +134,12 @@
     },
     "tertiary": {
       "0": {
-        "value": "#1aff94"
+        "value": "#1aff94",
+        "category": "color"
       },
       "10": {
         "value": "{color.tertiary.0}",
+        "category": "color",
         "modify": [
           {
             "type": "set",
@@ -133,6 +149,7 @@
       },
       "20": {
         "value": "{color.tertiary.0}",
+        "category": "color",
         "modify": [
           {
             "type": "set",
@@ -142,6 +159,7 @@
       },
       "30": {
         "value": "{color.tertiary.0}",
+        "category": "color",
         "modify": [
           {
             "type": "set",
@@ -151,6 +169,7 @@
       },
       "40": {
         "value": "{color.tertiary.0}",
+        "category": "color",
         "modify": [
           {
             "type": "set",
@@ -160,6 +179,7 @@
       },
       "50": {
         "value": "{color.tertiary.0}",
+        "category": "color",
         "modify": [
           {
             "type": "set",
@@ -169,6 +189,7 @@
       },
       "60": {
         "value": "{color.tertiary.0}",
+        "category": "color",
         "modify": [
           {
             "type": "set",
