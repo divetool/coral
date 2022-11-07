@@ -1,10 +1,15 @@
 <img src="docs/coral-logo.png" alt="Coral logo" title="Coral" width="100" align="right" />
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
 [![CI](https://github.com/divetool/coral/actions/workflows/ci.yml/badge.svg)](https://github.com/divetool/coral/actions/workflows/ci.yml)
 ![license](https://img.shields.io/npm/l/@divetool/coral.svg?style=flat-square)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdivetool%2Fcoral.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdivetool%2Fcoral?ref=badge_shield)
 [![NPM Version](https://badge.fury.io/js/%40divetool%2Fcoral.svg)](https://www.npmjs.com/@divetool/coral)
 [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)]()
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](docs/CODE_OF_CONDUCT.md)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![Star on GitHub](https://img.shields.io/github/stars/divetool/coral.svg?style=social)](https://github.com/divetool/coral/stargazers)
 
 # Coral Design System
 
@@ -17,6 +22,30 @@
 | Coral         | [`@divetool/coral`](https://www.npmjs.com/package/@divetool/coral)               | [![version](https://img.shields.io/npm/v/@divetool/coral/latest.svg?color=04989e)](https://www.npmjs.com/package/@divetool/coral)                 |
 | Coral React   | [`@divetool/coral-react`](https://www.npmjs.com/package/@divetool/coral-react)   | [![version](https://img.shields.io/npm/v/@divetool/coral-react/latest.svg?color=04989e)](https://www.npmjs.com/package/@divetool/coral-react)     |
 | Coral Angular | [`@divetool/coral-angular`](https://www.npmjs.com/package/@divetool/coral-react) | [![version](https://img.shields.io/npm/v/@divetool/coral-angular/latest.svg?color=04989e)](https://www.npmjs.com/package/@divetool/coral-angular) |
+
+## Support
+
+Reach out to the project maintainers at one of the following places:
+
+- [GitHub Discussions](https://github.com/divetool/coral/discussions)
+- Our [#support](https://discord.com/channels/1038293874189279252/1038294430815375502) channel in the [DiveTool Community](https://discord.gg/Ug3cb4QD3f) discord server.
+- If you need to privately contact the project maintainers, DM them through our [DiveTool Community](https://discord.gg/Ug3cb4QD3f) discord server.
+
+## Contributing
+
+First off, thanks for taking the time to contribute! Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make will benefit everybody else and are **greatly appreciated**.
+
+## Code of conduct
+
+DiveTool is dedicated to providing a welcoming, diverse, and harrassment-free experience for everyone. We expect everyone in the DiveTool community to abide by our [**Code of Conduct**](docs/CODE_OF_CONDUCT.md). Please read it.
+
+## License
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdivetool%2Fcoral.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdivetool%2Fcoral?ref=badge_large)
+
+This project is licensed under the **MIT License**.
+
+See [LICENSE](LICENSE) for more information.
 
 ## Credits
 
