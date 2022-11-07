@@ -1,0 +1,25 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "packages/coral-tokens/src",
+  "targets": {
+    "build": {
+      "executor": "@nxkit/style-dictionary:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/coral-tokens",
+        "styleDictionaryConfig": "packages/coral-tokens/style-dictionary.config.ts",
+        "tsConfig": "packages/coral-tokens/tsconfig.json",
+        "customTransforms": "packages/coral-tokens/src/extensions/transforms/index.ts"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/coral-tokens/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": []
+}

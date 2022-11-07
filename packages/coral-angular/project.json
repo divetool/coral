@@ -36,7 +36,8 @@
         "lintFilePatterns": [
           "packages/coral-angular/**/*.ts",
           "packages/coral-angular/**/*.html"
-        ]
+        ],
+        "ignorePath": "packages/coral-angular/.eslintignore"
       }
     }
   },
