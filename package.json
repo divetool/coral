@@ -3,10 +3,14 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "format": "nx format --all",
-    "format:check": "nx format:check --all",
+    "format": "nx format",
+    "format:check": "nx format:check",
+    "check-commit": "node ./tools/scripts/commit-lint.js",
+    "check-format": "nx format:check --all",
+    "check-lock-files": "node ./tools/scripts/check-lock-files.js",
     "commit": "cz",
-    "postinstall": "ngcc --properties es2020 browser module main"
+    "postinstall": "ngcc --properties es2020 browser module main",
+    "prepare": "is-ci || husky install"
   },
   "private": true,
   "devDependencies": {
@@ -62,6 +66,8 @@
     "eslint-plugin-jsx-a11y": "6.6.1",
     "eslint-plugin-react": "7.31.8",
     "eslint-plugin-react-hooks": "4.6.0",
+    "husky": "^8.0.1",
+    "is-ci": "^3.0.1",
     "jest": "27.4.1",
     "jest-environment-jsdom": "27.4.1",
     "jest-preset-angular": "~12.2.2",
