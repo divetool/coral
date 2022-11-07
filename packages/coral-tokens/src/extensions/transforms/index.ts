@@ -1,5 +1,5 @@
 import { CustomTransformsBuilder } from '@nxkit/style-dictionary';
-import { ShadesTransform } from './shades-transform/transform';
+import { ShadesTransform } from './shades-transform/shades-transform';
 
 const customTransformsBuilder: CustomTransformsBuilder = () => {
   return {
