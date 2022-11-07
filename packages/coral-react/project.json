@@ -6,7 +6,7 @@
   "tags": ["scope:coral-react"],
   "targets": {
     "build": {
-      "executor": "@nrwl/web:rollup",
+      "executor": "@nrwl/rollup:rollup",
       "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/packages/coral-react",
@@ -37,7 +37,7 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/packages/coral-react"],
+      "outputs": ["{workspaceRoot}/coverage/packages/coral-react"],
       "options": {
         "jestConfig": "packages/coral-react/jest.config.ts",
         "passWithNoTests": true

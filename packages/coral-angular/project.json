@@ -7,7 +7,7 @@
   "targets": {
     "build": {
       "executor": "@nrwl/angular:package",
-      "outputs": ["dist/packages/coral-angular"],
+      "outputs": ["{workspaceRoot}/dist/packages/coral-angular"],
       "options": {
         "project": "packages/coral-angular/ng-package.json",
         "updateBuildableProjectDepsInPackageJson": false
@@ -24,7 +24,7 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/packages/coral-angular"],
+      "outputs": ["{workspaceRoot}/coverage/packages/coral-angular"],
       "options": {
         "jestConfig": "packages/coral-angular/jest.config.ts",
         "passWithNoTests": true

@@ -13,8 +13,8 @@
       "executor": "@nxext/stencil:build",
       "outputs": [
         "{options.outputPath}",
-        "packages/coral-react/src/generated",
-        "packages/coral-angular/src/lib/generated"
+        "{workspaceRoot}/packages/coral-react/src/generated",
+        "{workspaceRoot}/packages/coral-angular/src/lib/generated"
       ],
       "options": {
         "projectType": "library",
@@ -67,7 +67,7 @@
       }
     },
     "storybook": {
-      "executor": "@nrwl/workspace:run-commands",
+      "executor": "nx:run-commands",
       "options": {
         "commands": ["nx run coral:serve", "nx run coral:serve-storybook"],
         "parallel": true
