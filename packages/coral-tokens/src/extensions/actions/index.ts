@@ -2,13 +2,13 @@ import {
   CustomActionsBuilder,
   ExtensionContext,
 } from '@nxkit/style-dictionary';
-import { copyNpmModuleFilesAction } from './npm_module_action';
+import { NpmModuleAction } from './npm_module_action';
 
 const customActionsBuilder: CustomActionsBuilder = (
   extensionContext: ExtensionContext
 ) => {
   return {
-    generate_npm_module: copyNpmModuleFilesAction(extensionContext),
+    [NpmModuleAction.name]: NpmModuleAction.actionBuilder(extensionContext),
   };
 };
 

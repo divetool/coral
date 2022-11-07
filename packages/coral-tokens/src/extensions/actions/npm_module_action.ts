@@ -1,11 +1,15 @@
 import { ExtensionContext } from '@nxkit/style-dictionary';
-import { Action, Dictionary, Platform } from 'style-dictionary';
 import * as fs from 'fs-extra';
 import * as path from 'path';
+import { Action, Dictionary, Platform } from 'style-dictionary';
+import { CustomAction } from './action.model';
 
-export function copyNpmModuleFilesAction(
-  extensionContext: ExtensionContext
-): Action {
+export const NpmModuleAction: CustomAction = {
+  name: 'generate_npm_module',
+  actionBuilder: copyNpmModuleFilesAction,
+};
+
+function copyNpmModuleFilesAction(extensionContext: ExtensionContext): Action {
   const { projectRoot } = extensionContext.options;
 
   const readmePath = path.join(projectRoot, 'README.md');
