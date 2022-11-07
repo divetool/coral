@@ -1786,13 +1786,6 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"
   integrity sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==
 
-"@divetool/coral@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@divetool/coral/-/coral-0.0.5.tgz#03a3b5a8d57b357d4c6b483e47efe9b98d712164"
-  integrity sha512-g3dyfhxqaDL7JMjV5HFUpvPXOslvXYV5XnuRFGFMAEleuus5fuWjEeQU1pTWbs7fRpC6Ao4lFlW1DYAuHBApAA==
-  dependencies:
-    "@stencil/core" "2.17.1"
-
 "@esbuild/android-arm@0.15.10":
   version "0.15.10"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm/-/android-arm-0.15.10.tgz#a5f9432eb221afc243c321058ef25fe899886892"
