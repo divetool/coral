@@ -1,5 +1,5 @@
 import { CustomTransform } from '../transform.model';
-import { colorTransform } from './color-transform';
+import { generateLightenedColor } from './generate-lightened-color';
 
 export const ShadesTransform: CustomTransform = {
   name: 'shades-transform',
@@ -9,6 +9,6 @@ export const ShadesTransform: CustomTransform = {
     // that alias/reference other tokens
     transitive: true,
     matcher: (token) => token?.attributes?.category === 'color' && token.modify,
-    transformer: colorTransform,
+    transformer: generateLightenedColor,
   },
 };
