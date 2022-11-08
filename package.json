@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "build": "nx run-many --target build --all --parallel 8",
     "format": "nx format",
     "format:check": "nx format:check",
     "check-commit": "node ./tools/scripts/commit-lint.js",

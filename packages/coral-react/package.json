@@ -19,7 +19,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "peerDependencies": {
+  "dependencies": {
     "@divetool/coral": "file:../coral"
   }
 }

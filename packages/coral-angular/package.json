@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^14.2.0",
-    "@angular/core": "^14.2.0",
-    "@divetool/coral": "file:../coral"
+    "@angular/core": "^14.2.0"
   },
   "dependencies": {
+    "@divetool/coral": "file:../coral",
     "tslib": "^2.3.0"
   },
   "publishConfig": {
