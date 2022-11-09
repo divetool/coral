@@ -1,12 +1,17 @@
 {
   "name": "@divetool/coral-tokens",
+  "description": "Design Tokens for the Coral Design System 🪸",
   "version": "0.0.1",
+  "module": "./index.js",
+  "main": "./index.js",
+  "types": "./index.d.ts",
   "keywords": [
     "Monorepo",
     "Design-System",
     "Style Dictionary",
     "Design-Tokens",
-    "Styles"
+    "Styles",
+    "SCSS"
   ],
   "files": [
     "scss",
@@ -15,15 +20,14 @@
   "license": "MIT",
   "repository": {
     "type": "github",
-    "url": "https://github.com/divetool/coral"
+    "url": "https://github.com/divetool/coral",
+    "directory": "packages/coral-tokens"
   },
   "bugs": {
     "url": "https://github.com/divetool/coral/issues"
   },
+  "homepage": "https://github.com/divetool/coral#readme",
   "publishConfig": {
     "access": "public"
-  },
-  "module": "./index.js",
-  "main": "./index.js",
-  "types": "./index.d.ts"
+  }
 }
