@@ -37,7 +37,7 @@
       "options": {
         "commands": [
           "cp packages/coral/README.md dist/packages/coral/README.md",
-          "yarn format --all"
+          "nr format --all"
         ],
         "parallel": false
       }
