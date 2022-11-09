@@ -4,9 +4,6 @@
   "packages": ["dist/packages/*"],
   "granularPathspec": false,
   "command": {
-    "version": {
-      "allowBranch": "main"
-    },
     "publish": {
       "graphType": "all"
     }
