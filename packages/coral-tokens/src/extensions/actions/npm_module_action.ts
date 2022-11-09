@@ -1,37 +1,38 @@
 import { ExtensionContext } from '@nxkit/style-dictionary';
-import * as fs from 'fs-extra';
-import * as path from 'path';
 import { Action, Dictionary, Platform } from 'style-dictionary';
-import { CustomAction } from './action.model';
+import * as fs from 'fs-extra';
+import { join } from 'path';
 
-export const NpmModuleAction: CustomAction = {
-  name: 'generate_npm_module',
-  actionBuilder: copyNpmModuleFilesAction,
-};
-
-function copyNpmModuleFilesAction(extensionContext: ExtensionContext): Action {
+export function copyNpmModuleFilesAction(
+  extensionContext: ExtensionContext
+): Action {
   const { projectRoot } = extensionContext.options;
 
-  const readmePath = path.join(projectRoot, 'README.md');
-  const packageJsonPath = path.join(projectRoot, 'package.json');
-  const indexPath = path.join(projectRoot, 'index.js');
+  const addFile = (file: string, targetDirectory: string) => {
+    console.log(`Adding ${file} to ${targetDirectory}`);
+    const source = join(projectRoot, file);
+    const target = join(targetDirectory, file);
+    fs.copySync(source, target);
+  };
+
+  const removeFile = (file: string, fileLocation: string) => {
+    console.log(`Removing ${file} from ${fileLocation}`);
+    const target = join(fileLocation, file);
+    fs.removeSync(target);
+  };
+
+  const files = ['README.md', 'package.json', 'index.js'];
 
   return {
     do: (dictionary: Dictionary, config: Platform) => {
       const { buildPath } = config;
-      console.log('Copying README file to ' + config.buildPath);
-      fs.copySync(readmePath, path.join(buildPath, 'README.md'));
-      console.log('Copying package.json file to ' + config.buildPath);
-      fs.copySync(packageJsonPath, path.join(buildPath, 'package.json'));
-      console.log('Copying index.js file to ' + config.buildPath);
-      fs.copySync(indexPath, path.join(buildPath, 'index.js'));
+      files.forEach((file) => addFile(file, buildPath));
     },
     undo: (dictionary: Dictionary, config: Platform) => {
       const { buildPath } = config;
 
       console.log('Removing npm module files from ' + buildPath);
-      fs.removeSync(path.join(buildPath + 'README.md'));
-      fs.removeSync(path.join(buildPath + 'package.json'));
+      files.forEach((file) => removeFile(file, buildPath));
     },
   };
 }
