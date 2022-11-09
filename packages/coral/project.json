@@ -3,6 +3,7 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/coral/src",
   "projectType": "library",
+  "implicitDependencies": ["coral-tokens"],
   "generators": {
     "@nxext/stencil:component": {
       "style": "scss"
