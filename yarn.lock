@@ -3633,10 +3633,10 @@
     "@nrwl/devkit" "14.5.2"
     ignore "^5.2.0"
 
-"@nxkit/style-dictionary@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@nxkit/style-dictionary/-/style-dictionary-0.0.4.tgz#2f006266d8499e16ca14fdde47699dd89e2401ef"
-  integrity sha512-5Uotke81tynBPm7CATr0ATdkDEXjxF8kEfaG/ql8ZbTfmQ39ObrBmFDtCBsxwzrHhK2x9uB2KhLxGVxibXeM3g==
+"@nxkit/style-dictionary@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@nxkit/style-dictionary/-/style-dictionary-0.0.5.tgz#706bc9a8dd9420143dad3f95181cba909972e6e3"
+  integrity sha512-LJ9wyescUhovOKiw2j0Z1MzfcTg1zJzmnIfPZWDlniDRUcObJesEIW5RduZHhS/FDcLtVgGmCjI0j9X+dnRwow==
 
 "@octokit/auth-token@^3.0.0":
   version "3.0.1"

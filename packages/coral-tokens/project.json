@@ -11,7 +11,8 @@
         "outputPath": "dist/packages/coral-tokens",
         "styleDictionaryConfig": "packages/coral-tokens/style-dictionary.config.ts",
         "tsConfig": "packages/coral-tokens/tsconfig.json",
-        "customTransforms": "packages/coral-tokens/src/extensions/transforms/index.ts"
+        "customTransforms": "packages/coral-tokens/src/extensions/transforms/index.ts",
+        "customActions": "packages/coral-tokens/src/extensions/actions/index.ts"
       }
     },
     "lint": {
@@ -22,5 +23,5 @@
       }
     }
   },
-  "tags": []
+  "tags": ["scope:coral-tokens"]
 }

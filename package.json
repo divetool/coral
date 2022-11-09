@@ -42,7 +42,7 @@
     "@nrwl/web": "15.0.13",
     "@nrwl/workspace": "15.0.13",
     "@nxext/stencil": "^14.0.6",
-    "@nxkit/style-dictionary": "^0.0.4",
+    "@nxkit/style-dictionary": "^0.0.5",
     "@stencil/angular-output-target": "^0.4.0",
     "@stencil/core": "2.17.1",
     "@stencil/react-output-target": "^0.3.1",
