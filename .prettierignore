@@ -2,6 +2,7 @@
 
 /dist
 /coverage
+/tmp
 
 # Stencil Generated files
 packages/coral-react/**/generated
