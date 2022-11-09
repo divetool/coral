@@ -97,15 +97,15 @@ function hideFromGitIndex(uncommittedFiles: string[]) {
       ...publishOptions,
     }) as unknown as Promise<void>);
 
-    if(options.local || options.tag === 'next') {
+    if (!options.local && options.publishGithub) {
       await (publish({
         ...versionOptions,
         ...publishOptions,
         registry: 'https://npm.pkg.github.com',
         bump: 'from-package',
+        yes: true,
       }) as unknown as Promise<void>);
     }
-
   } else {
     await (version(versionOptions) as unknown as Promise<void>);
     console.warn('Not Publishing because --dryRun was passed');
@@ -179,6 +179,12 @@ function parseArgs() {
       type: 'string',
       description: 'Log Level',
       choices: ['error', 'info', 'debug'],
+    })
+    .option('publishGithub', {
+      type: 'boolean',
+      description: 'Also publish to the Github Package Registry',
+      alias: 'l',
+      default: false,
     })
     .example(
       '$0',
