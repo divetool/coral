@@ -2,179 +2,146 @@
   "color": {
     "primary": {
       "0": {
-        "value": "#751aff"
+        "value": "#751aff",
+        "category": "color"
       },
       "10": {
         "value": "{color.primary.0}",
-        "modify": [
-          {
-            "type": "set",
-            "amount": "{lightness.1}"
-          }
-        ]
+        "category": "color",
+        "modify": {
+          "amount": "{lightness.1}"
+        }
       },
       "20": {
         "value": "{color.primary.0}",
-        "modify": [
-          {
-            "type": "set",
-            "amount": "{lightness.2}"
-          }
-        ]
+        "category": "color",
+        "modify": {
+          "amount": "{lightness.2}"
+        }
       },
       "30": {
         "value": "{color.primary.0}",
-        "modify": [
-          {
-            "type": "set",
-            "amount": "{lightness.3}"
-          }
-        ]
+        "category": "color",
+        "modify": {
+          "amount": "{lightness.3}"
+        }
       },
       "40": {
         "value": "{color.primary.0}",
-        "modify": [
-          {
-            "type": "set",
-            "amount": "{lightness.4}"
-          }
-        ]
+        "category": "color",
+        "modify": {
+          "amount": "{lightness.4}"
+        }
       },
       "50": {
         "value": "{color.primary.0}",
-        "modify": [
-          {
-            "type": "set",
-            "amount": "{lightness.5}"
-          }
-        ]
+        "category": "color",
+        "modify": {
+          "amount": "{lightness.5}"
+        }
       },
       "60": {
         "value": "{color.primary.0}",
-        "modify": [
-          {
-            "type": "set",
-            "amount": "{lightness.6}"
-          }
-        ]
+        "category": "color",
+        "modify": {
+          "amount": "{lightness.6}"
+        }
       }
     },
     "secondary": {
       "0": {
-        "value": "#ff751a"
+        "value": "#ff751a",
+        "category": "color"
       },
       "10": {
         "value": "{color.secondary.0}",
-        "modify": [
-          {
-            "type": "set",
-            "amount": "{lightness.1}"
-          }
-        ]
+        "category": "color",
+        "modify": {
+          "amount": "{lightness.1}"
+        }
       },
       "20": {
         "value": "{color.secondary.0}",
-        "modify": [
-          {
-            "type": "set",
-            "amount": "{lightness.2}"
-          }
-        ]
+        "category": "color",
+        "modify": {
+          "amount": "{lightness.2}"
+        }
       },
       "30": {
         "value": "{color.secondary.0}",
-        "modify": [
-          {
-            "type": "set",
-            "amount": "{lightness.3}"
-          }
-        ]
+        "category": "color",
+        "modify": {
+          "amount": "{lightness.3}"
+        }
       },
       "40": {
         "value": "{color.secondary.0}",
-        "modify": [
-          {
-            "type": "set",
-            "amount": "{lightness.4}"
-          }
-        ]
+        "category": "color",
+        "modify": {
+          "amount": "{lightness.4}"
+        }
       },
       "50": {
         "value": "{color.secondary.0}",
-        "modify": [
-          {
-            "type": "set",
-            "amount": "{lightness.5}"
-          }
-        ]
+        "category": "color",
+        "modify": {
+          "amount": "{lightness.5}"
+        }
       },
       "60": {
         "value": "{color.secondary.0}",
-        "modify": [
-          {
-            "type": "set",
-            "amount": "{lightness.6}"
-          }
-        ]
+        "category": "color",
+        "modify": {
+          "amount": "{lightness.6}"
+        }
       }
     },
     "tertiary": {
       "0": {
-        "value": "#1aff94"
+        "value": "#1aff94",
+        "category": "color"
       },
       "10": {
         "value": "{color.tertiary.0}",
-        "modify": [
-          {
-            "type": "set",
-            "amount": "{lightness.1}"
-          }
-        ]
+        "category": "color",
+        "modify": {
+          "amount": "{lightness.1}"
+        }
       },
       "20": {
         "value": "{color.tertiary.0}",
-        "modify": [
-          {
-            "type": "set",
-            "amount": "{lightness.2}"
-          }
-        ]
+        "category": "color",
+        "modify": {
+          "amount": "{lightness.2}"
+        }
       },
       "30": {
         "value": "{color.tertiary.0}",
-        "modify": [
-          {
-            "type": "set",
-            "amount": "{lightness.3}"
-          }
-        ]
+        "category": "color",
+        "modify": {
+          "amount": "{lightness.3}"
+        }
       },
       "40": {
         "value": "{color.tertiary.0}",
-        "modify": [
-          {
-            "type": "set",
-            "amount": "{lightness.4}"
-          }
-        ]
+        "category": "color",
+        "modify": {
+          "amount": "{lightness.4}"
+        }
       },
       "50": {
         "value": "{color.tertiary.0}",
-        "modify": [
-          {
-            "type": "set",
-            "amount": "{lightness.5}"
-          }
-        ]
+        "category": "color",
+        "modify": {
+          "amount": "{lightness.5}"
+        }
       },
       "60": {
         "value": "{color.tertiary.0}",
-        "modify": [
-          {
-            "type": "set",
-            "amount": "{lightness.6}"
-          }
-        ]
+        "category": "color",
+        "modify": {
+          "amount": "{lightness.6}"
+        }
       }
     }
   }
