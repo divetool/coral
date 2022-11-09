@@ -45,4 +45,7 @@ export const config: Config = {
       includeImportCustomElements: true,
     }),
   ],
+  preamble: `Built with Stencil   - https://stenciljs.com/
+Copyright © DiveTool - http://github.com/divetool
+MIT License`,
 };
