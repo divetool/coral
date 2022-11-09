@@ -1,6 +1,6 @@
 {
   "name": "@divetool/coral",
-  "description": "🪸 Coral Design System by DiveTool",
+  "description": "Web components for the Coral Design System 🪸",
   "version": "0.0.1",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.js",
@@ -24,11 +24,13 @@
   "license": "MIT",
   "repository": {
     "type": "github",
-    "url": "https://github.com/divetool/coral"
+    "url": "https://github.com/divetool/coral",
+    "directory": "packages/coral"
   },
   "bugs": {
     "url": "https://github.com/divetool/coral/issues"
   },
+  "homepage": "https://github.com/divetool/coral#readme",
   "publishConfig": {
     "access": "public"
   },
