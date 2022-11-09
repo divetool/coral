@@ -18,9 +18,9 @@
       "@divetool/coral": ["dist/packages/coral"],
       "@divetool/coral-angular": ["packages/coral-angular/src/index.ts"],
       "@divetool/coral-react": ["packages/coral-react/src/index.ts"],
-      "@divetool/coral/*": ["dist/packages/coral/*"],
       "@divetool/coral-tokens": ["dist/packages/coral-tokens"],
-      "@divetool/coral-tokens/*": ["dist/packages/coral-tokens/*"]
+      "@divetool/coral-tokens/*": ["dist/packages/coral-tokens/*"],
+      "@divetool/coral/*": ["dist/packages/coral/*"]
     }
   },
   "exclude": ["node_modules", "tmp"],
