@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 function checkLockFiles() {
-  const errors = [];
+  const errors: string[] = [];
   if (fs.existsSync('pnpm-lock.yaml')) {
     errors.push(
       'Invalid occurence of "pnpm-lock.yaml" file. Please remove it and use only "yarn.lock"'
