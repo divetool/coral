@@ -1,7 +1,13 @@
 import { ExtensionContext } from '@nxkit/style-dictionary';
-import { Action, Dictionary, Platform } from 'style-dictionary';
 import * as fs from 'fs-extra';
 import { join } from 'path';
+import { Action, Dictionary, Platform } from 'style-dictionary';
+import { CustomAction } from './action.model';
+
+export const NpmModuleAction: CustomAction = {
+  name: 'generate_npm_module',
+  actionBuilder: copyNpmModuleFilesAction,
+};
 
 export function copyNpmModuleFilesAction(
   extensionContext: ExtensionContext
