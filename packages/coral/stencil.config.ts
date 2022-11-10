@@ -15,6 +15,9 @@ export const config: Config = {
   namespace: 'coral',
   taskQueue: 'async',
   plugins: [sass()],
+  extras: {
+    experimentalImportInjection: true,
+  },
   outputTargets: [
     {
       type: 'dist',
