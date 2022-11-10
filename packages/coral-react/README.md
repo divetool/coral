@@ -1,6 +1,6 @@
 <div align="right">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React logo" height="100" align="right">
-    <img src="https://github.com/divetool/coral/raw/main/docs/coral-logo.png" alt="Coral logo" title="Coral" width="100" align="right" style="margin-right: 1rem;"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React logo" height="50" align="right">
+    <img src="https://github.com/divetool/coral/raw/main/docs/coral-logo.png" alt="Coral logo" title="Coral" width="50" align="right" style="margin-right: 1rem;"/>
 </div>
 
 [![CI](https://github.com/divetool/coral/actions/workflows/ci.yml/badge.svg)](https://github.com/divetool/coral/actions/workflows/ci.yml)

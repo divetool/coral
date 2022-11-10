@@ -1,6 +1,6 @@
 <div align="right">
-    <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular Logo" itemprop="image" width="100" align="right">
-    <img src="https://github.com/divetool/coral/raw/main/docs/coral-logo.png" alt="Coral logo" title="Coral" width="100" align="right" style="margin-right: 1rem;"/>
+    <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular Logo" itemprop="image" width="50" align="right">
+    <img src="https://github.com/divetool/coral/raw/main/docs/coral-logo.png" alt="Coral logo" title="Coral" width="50" align="right" style="margin-right: 1rem;"/>
 </div>
 
 [![CI](https://github.com/divetool/coral/actions/workflows/ci.yml/badge.svg)](https://github.com/divetool/coral/actions/workflows/ci.yml)
