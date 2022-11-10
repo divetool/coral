@@ -27,6 +27,7 @@ module.exports = {
       name: 'coral-react',
       description: 'anyting @divetool/coral-react related',
     },
+    { name: 'core', description: 'anything Coral core related' },
     {
       name: 'repo',
       description: 'anything related to managing the repo itself',

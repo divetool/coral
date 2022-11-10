@@ -1,7 +1,9 @@
 {
+  "name": "coral",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/coral/src",
   "projectType": "library",
+  "implicitDependencies": ["coral-tokens"],
   "generators": {
     "@nxext/stencil:component": {
       "style": "scss"
@@ -9,7 +11,7 @@
   },
   "tags": ["scope:coral"],
   "targets": {
-    "build": {
+    "build-stencil": {
       "executor": "@nxext/stencil:build",
       "outputs": [
         "{options.outputPath}",
@@ -27,6 +29,18 @@
           "dev": false,
           "prod": true
         }
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "dependsOn": ["build-stencil"],
+      "outputs": ["{workspaceRoot}/dist/packages/coral"],
+      "options": {
+        "commands": [
+          "cp packages/coral/README.md dist/packages/coral/README.md",
+          "nr format --all"
+        ],
+        "parallel": false
       }
     },
     "serve": {

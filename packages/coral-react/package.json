@@ -1,5 +1,6 @@
 {
   "name": "@divetool/coral-react",
+  "description": "React components for the Coral Design System 🪸",
   "version": "0.0.1",
   "keywords": [
     "Monorepo",
@@ -11,11 +12,13 @@
   "license": "MIT",
   "repository": {
     "type": "github",
-    "url": "https://github.com/divetool/coral"
+    "url": "https://github.com/divetool/coral",
+    "directory": "packages/coral-react"
   },
   "bugs": {
     "url": "https://github.com/divetool/coral/issues"
   },
+  "homepage": "https://github.com/divetool/coral#readme",
   "publishConfig": {
     "access": "public"
   },

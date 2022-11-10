@@ -4,7 +4,7 @@
 [![CI](https://github.com/divetool/coral/actions/workflows/ci.yml/badge.svg)](https://github.com/divetool/coral/actions/workflows/ci.yml)
 ![license](https://img.shields.io/npm/l/@divetool/coral.svg?style=flat-square)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdivetool%2Fcoral.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdivetool%2Fcoral?ref=badge_shield)
-[![NPM Version](https://badge.fury.io/js/%40divetool%2Fcoral.svg)](https://www.npmjs.com/@divetool/coral)
+[![NPM Version](https://img.shields.io/npm/v/@divetool/coral?color=green&label=NPM+version&logo=npm)](https://www.npmjs.com/@divetool/coral)
 [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)]()
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](docs/CODE_OF_CONDUCT.md)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
