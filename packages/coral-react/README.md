@@ -19,7 +19,7 @@ Read the full docs at https://divetool.github.io/coral
 To start using Coral's React components, start by installing `@divetool/coral-react` in your React project.
 
 ```bash
-npm install @divetool/coral-angular
+npm install @divetool/coral-react
 ```
 
 Then import the components into your application TSX/JSX.
