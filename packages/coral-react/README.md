@@ -8,6 +8,32 @@
 
 # Coral React Components
 
+The Coral's React components are built using **StencilJS**. Read more about it in the [StencilJS website](https://stenciljs.com/).
+
+## Documentation
+
+Read the full docs at https://divetool.github.io/coral
+
+## Getting started
+
+To start using Coral's React components, start by installing `@divetool/coral-react` in your React project.
+
+```bash
+npm install @divetool/coral-angular
+```
+
+Then import the components into your application TSX/JSX.
+
+```tsx
+import { CrlButton } from '@divetool/coral-react';
+
+export function App() {
+  return <CrlButton>Click me</CrlButton>;
+}
+
+export default App;
+```
+
 ## License
 
 This project is licensed under the **MIT License**.

@@ -8,7 +8,7 @@
 
 # Coral Vanilla Web Components
 
-The Coral's web components are built using [StencilJS](https://stenciljs.com/) read more about Stencil in their website.
+The Coral's web components are built using **StencilJS**. Read more about it in the [StencilJS website](https://stenciljs.com/).
 
 ## Documentation
 
