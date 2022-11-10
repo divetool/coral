@@ -8,4 +8,8 @@
 
 # Coral Design Tokens
 
-This library was generated with [Nx](https://nx.dev).
+## License
+
+This project is licensed under the **MIT License**.
+
+See [LICENSE](https://github.com/divetool/coral/blob/main/LICENSE) for more information.

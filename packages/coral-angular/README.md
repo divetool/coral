@@ -8,8 +8,8 @@
 
 # Coral Angular Components
 
-This library was generated with [Nx](https://nx.dev).
+## License
 
-## Running unit tests
+This project is licensed under the **MIT License**.
 
-Run `nx test coral-angular` to execute the unit tests.
+See [LICENSE](https://github.com/divetool/coral/blob/main/LICENSE) for more information.

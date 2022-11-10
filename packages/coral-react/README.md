@@ -8,8 +8,8 @@
 
 # Coral React Components
 
-This library was generated with [Nx](https://nx.dev).
+## License
 
-## Running unit tests
+This project is licensed under the **MIT License**.
 
-Run `nx test coral-react` to execute the unit tests via [Jest](https://jestjs.io).
+See [LICENSE](https://github.com/divetool/coral/blob/main/LICENSE) for more information.
