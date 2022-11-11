@@ -13,7 +13,7 @@
 
 <!-- prettier-ignore-start -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- prettier-ignore-end -->
 
@@ -71,6 +71,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center"><a href="https://cv-portfolio-angular.vercel.app/home"><img src="https://avatars.githubusercontent.com/u/21989106?v=4?s=100" width="100px;" alt="Andrés Valencia Díaz "/><br /><sub><b>Andrés Valencia Díaz </b></sub></a><br /><a href="https://github.com/divetool/coral/commits?author=AndresVD21" title="Code">💻</a> <a href="https://github.com/divetool/coral/pulls?q=is%3Apr+reviewed-by%3AAndresVD21" title="Reviewed Pull Requests">👀</a> <a href="#design-AndresVD21" title="Design">🎨</a></td>
       <td align="center"><a href="https://github.com/mariacuadros"><img src="https://avatars.githubusercontent.com/u/104040782?v=4?s=100" width="100px;" alt="Maria del Mar Cuadros"/><br /><sub><b>Maria del Mar Cuadros</b></sub></a><br /><a href="https://github.com/divetool/coral/pulls?q=is%3Apr+reviewed-by%3Amariacuadros" title="Reviewed Pull Requests">👀</a></td>
       <td align="center"><a href="https://github.com/santidelosrios"><img src="https://avatars.githubusercontent.com/u/6628019?v=4?s=100" width="100px;" alt="Santiago De Los Ríos"/><br /><sub><b>Santiago De Los Ríos</b></sub></a><br /><a href="#projectManagement-santidelosrios" title="Project Management">📆</a></td>
+      <td align="center"><a href="https://github.com/booleanaVillegas"><img src="https://avatars.githubusercontent.com/u/18287688?v=4?s=100" width="100px;" alt="Juliana Villegas"/><br /><sub><b>Juliana Villegas</b></sub></a><br /><a href="#ideas-booleanaVillegas" title="Ideas, Planning, & Feedback">🤔</a> <a href="#design-booleanaVillegas" title="Design">🎨</a></td>
     </tr>
   </tbody>
   <tfoot>
