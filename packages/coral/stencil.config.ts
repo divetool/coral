@@ -7,7 +7,7 @@ import {
 } from '@stencil/angular-output-target';
 
 const angularValueAccessorBindings: ValueAccessorConfig[] = [];
-console.log(process.cwd());
+
 export const config: Config = {
   namespace: 'coral',
   taskQueue: 'async',
