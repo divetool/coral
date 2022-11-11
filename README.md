@@ -13,7 +13,7 @@
 
 <!-- prettier-ignore-start -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- prettier-ignore-end -->
 
@@ -67,8 +67,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center"><a href="https://sebastiandg.com/"><img src="https://avatars.githubusercontent.com/u/13395979?v=4?s=100" width="100px;" alt="Sebastian Duque Gutierrez"/><br /><sub><b>Sebastian Duque Gutierrez</b></sub></a><br /><a href="https://github.com/divetool/coral/commits?author=sebastiandg7" title="Code">💻</a> <a href="#tool-sebastiandg7" title="Tools">🔧</a> <a href="https://github.com/divetool/coral/pulls?q=is%3Apr+reviewed-by%3Asebastiandg7" title="Reviewed Pull Requests">👀</a> <a href="#ideas-sebastiandg7" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-sebastiandg7" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-sebastiandg7" title="Maintenance">🚧</a> <a href="#projectManagement-sebastiandg7" title="Project Management">📆</a></td>
-      <td align="center"><a href="https://cv-portfolio-angular.vercel.app/home"><img src="https://avatars.githubusercontent.com/u/21989106?v=4?s=100" width="100px;" alt="Andrés Valencia Díaz "/><br /><sub><b>Andrés Valencia Díaz </b></sub></a><br /><a href="https://github.com/divetool/coral/commits?author=AndresVD21" title="Code">💻</a> <a href="https://github.com/divetool/coral/pulls?q=is%3Apr+reviewed-by%3AAndresVD21" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://sebastiandg.com/"><img src="https://avatars.githubusercontent.com/u/13395979?v=4?s=100" width="100px;" alt="Sebastian Duque Gutierrez"/><br /><sub><b>Sebastian Duque Gutierrez</b></sub></a><br /><a href="https://github.com/divetool/coral/commits?author=sebastiandg7" title="Code">💻</a> <a href="#tool-sebastiandg7" title="Tools">🔧</a> <a href="https://github.com/divetool/coral/pulls?q=is%3Apr+reviewed-by%3Asebastiandg7" title="Reviewed Pull Requests">👀</a> <a href="#ideas-sebastiandg7" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-sebastiandg7" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-sebastiandg7" title="Maintenance">🚧</a> <a href="#projectManagement-sebastiandg7" title="Project Management">📆</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://cv-portfolio-angular.vercel.app/home"><img src="https://avatars.githubusercontent.com/u/21989106?v=4?s=100" width="100px;" alt="Andrés Valencia Díaz "/><br /><sub><b>Andrés Valencia Díaz </b></sub></a><br /><a href="https://github.com/divetool/coral/commits?author=AndresVD21" title="Code">💻</a> <a href="https://github.com/divetool/coral/pulls?q=is%3Apr+reviewed-by%3AAndresVD21" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/mariacuadros"><img src="https://avatars.githubusercontent.com/u/104040782?v=4?s=100" width="100px;" alt="Maria del Mar Cuadros"/><br /><sub><b>Maria del Mar Cuadros</b></sub></a><br /><a href="https://github.com/divetool/coral/pulls?q=is%3Apr+reviewed-by%3Amariacuadros" title="Reviewed Pull Requests">👀</a></td>
     </tr>
   </tbody>
   <tfoot>
