@@ -13,6 +13,8 @@
     "local-registry": "./tools/scripts/release/local-registry.sh",
     "release": "nr run-script ./tools/scripts/release/coral-release",
     "run-script": "ts-node -P ./tools/scripts/tsconfig.scripts.json",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate",
     "postinstall": "ngcc --properties es2020 browser module main",
     "prepare": "is-ci || husky install"
   },
@@ -59,6 +61,7 @@
     "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "5.42.0",
     "@typescript-eslint/parser": "5.42.0",
+    "all-contributors-cli": "^6.24.0",
     "babel-jest": "27.4.1",
     "chroma-js": "^2.4.2",
     "commitizen": "^4.2.5",
