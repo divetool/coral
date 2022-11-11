@@ -10,9 +10,9 @@ describe('crl-button', () => {
     expect(root).toEqualHtml(`
       <crl-button>
         <mock:shadow-root>
-          <div>
-            Hello, World! I'm
-          </div>
+          <button class="crl-button">
+            <slot></slot>
+          </button>
         </mock:shadow-root>
       </crl-button>
     `);
@@ -21,15 +21,16 @@ describe('crl-button', () => {
   it('renders with values', async () => {
     const { root } = await newSpecPage({
       components: [CrlButton],
-      html: `<crl-button first="Stencil" last="'Don't call me a framework' JS"></crl-button>`,
+      html: `<crl-button>Hello, World!</crl-button>`,
     });
     expect(root).toEqualHtml(`
-      <crl-button first="Stencil" last="'Don't call me a framework' JS">
+      <crl-button>
         <mock:shadow-root>
-          <div>
-            Hello, World! I'm Stencil 'Don't call me a framework' JS
-          </div>
+          <button class="crl-button">
+            <slot></slot>
+          </button>
         </mock:shadow-root>
+        Hello, World!
       </crl-button>
     `);
   });
