@@ -24,6 +24,16 @@
         "maintenance",
         "projectManagement"
       ]
+    },
+    {
+      "login": "AndresVD21",
+      "name": "Andrés Valencia Díaz ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21989106?v=4",
+      "profile": "https://cv-portfolio-angular.vercel.app/home",
+      "contributions": [
+        "code",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
