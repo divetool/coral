@@ -13,6 +13,7 @@
   "targets": {
     "build-stencil": {
       "executor": "@nxext/stencil:build",
+      "dependsOn": ["^build"],
       "outputs": [
         "{options.outputPath}",
         "{workspaceRoot}/packages/coral-react/src/generated",
