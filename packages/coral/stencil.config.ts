@@ -5,6 +5,7 @@ import {
   angularOutputTarget,
   ValueAccessorConfig,
 } from '@stencil/angular-output-target';
+import { getCoralPackagesDistPath } from './stencil/config-utils';
 
 const angularValueAccessorBindings: ValueAccessorConfig[] = [];
 
@@ -13,7 +14,7 @@ export const config: Config = {
   taskQueue: 'async',
   plugins: [
     sass({
-      includePaths: ['../../../dist/packages'],
+      includePaths: [getCoralPackagesDistPath()],
     }),
   ],
   extras: {
