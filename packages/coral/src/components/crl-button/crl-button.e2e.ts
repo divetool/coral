@@ -19,7 +19,7 @@ describe('crl-button', () => {
 
     expect(component).toHaveClass('hydrated');
     expect(component.textContent).toEqual(`Hello, World!`);
-    expect(element).toBeDefined();
+    expect(element).toHaveClass('crl-button');
 
     // component.setProperty('first', 'James');
     // await page.waitForChanges();
