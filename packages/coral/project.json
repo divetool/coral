@@ -13,6 +13,7 @@
   "targets": {
     "build-stencil": {
       "executor": "@nxext/stencil:build",
+      "dependsOn": ["^build"],
       "outputs": [
         "{options.outputPath}",
         "{workspaceRoot}/packages/coral-react/src/generated",
@@ -65,6 +66,7 @@
     },
     "e2e": {
       "executor": "@nxext/stencil:e2e",
+      "dependsOn": ["^build"],
       "outputs": ["{options.outputPath}"],
       "options": {
         "projectType": "library",

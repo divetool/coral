@@ -1,20 +1,22 @@
 import { Config } from '@stencil/core';
-
 import { sass } from '@stencil/sass';
-
 import { reactOutputTarget } from '@stencil/react-output-target';
-
 import {
   angularOutputTarget,
   ValueAccessorConfig,
 } from '@stencil/angular-output-target';
+import { getCoralPackagesDistPath } from './stencil/config-utils';
 
 const angularValueAccessorBindings: ValueAccessorConfig[] = [];
 
 export const config: Config = {
   namespace: 'coral',
   taskQueue: 'async',
-  plugins: [sass()],
+  plugins: [
+    sass({
+      includePaths: [getCoralPackagesDistPath()],
+    }),
+  ],
   extras: {
     experimentalImportInjection: true,
   },

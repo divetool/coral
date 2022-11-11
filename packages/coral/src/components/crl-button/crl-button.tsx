@@ -7,29 +7,15 @@ import { Component, h, Prop } from '@stencil/core';
 })
 export class CrlButton {
   /**
-   * The first name
+   * The variant of button to be used
    */
-  @Prop() first: string;
-
-  /**
-   * The middle name
-   */
-  @Prop() middle: string;
-
-  /**
-   * The last name
-   */
-  @Prop() last: string;
-
-  private getText(): string {
-    return (
-      (this.first || '') +
-      (this.middle ? ` ${this.middle}` : '') +
-      (this.last ? ` ${this.last}` : '')
-    );
-  }
+  @Prop() variant: string;
 
   render() {
-    return <div>Hello, World! I'm {this.getText()}</div>;
+    return (
+      <button class="crl-button">
+        <slot />
+      </button>
+    );
   }
 }
