@@ -24,6 +24,15 @@
         "maintenance",
         "projectManagement"
       ]
+    },
+    {
+      "login": "mariacuadros",
+      "name": "Maria del Mar Cuadros",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104040782?v=4",
+      "profile": "https://github.com/mariacuadros",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
