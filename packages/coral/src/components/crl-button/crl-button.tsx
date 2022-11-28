@@ -1,9 +1,11 @@
 import { Component, h, Prop } from '@stencil/core';
+import { clsx } from 'clsx';
+import { crlButton } from './crl-button.css';
 
 @Component({
   tag: 'crl-button',
-  styleUrl: 'crl-button.scss',
-  shadow: true,
+  styleUrl: 'crl-button.css.ts',
+  shadow: false,
 })
 export class CrlButton {
   /**
@@ -13,7 +15,7 @@ export class CrlButton {
 
   render() {
     return (
-      <button class="crl-button">
+      <button class={clsx(crlButton)}>
         <slot />
       </button>
     );

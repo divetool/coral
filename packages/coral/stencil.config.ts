@@ -1,22 +1,24 @@
 import { Config } from '@stencil/core';
-import { sass } from '@stencil/sass';
 import { reactOutputTarget } from '@stencil/react-output-target';
 import {
   angularOutputTarget,
   ValueAccessorConfig,
 } from '@stencil/angular-output-target';
-import { getCoralPackagesDistPath } from './stencil/config-utils';
+import {
+  vanillaExtractRollupPlugin,
+  vanillaExtractStencilPlugin,
+} from 'stencil-vanilla-extract-plugin';
+// import { vanillaExtractPlugin } from '@vanilla-extract/rollup-plugin';
 
 const angularValueAccessorBindings: ValueAccessorConfig[] = [];
 
 export const config: Config = {
   namespace: 'coral',
   taskQueue: 'async',
-  plugins: [
-    sass({
-      includePaths: [getCoralPackagesDistPath()],
-    }),
-  ],
+  plugins: [vanillaExtractStencilPlugin()],
+  rollupPlugins: {
+    before: [vanillaExtractRollupPlugin()],
+  },
   extras: {
     experimentalImportInjection: true,
   },

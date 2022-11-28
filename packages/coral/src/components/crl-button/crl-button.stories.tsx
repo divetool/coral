@@ -1,5 +1,5 @@
 import { h } from '@stencil/core';
-import { CrlButton } from '@divetool/coral/crl-button';
+import { CrlButton } from '@divetool/coral/dist/components/crl-button';
 
 export default {
   title: 'CrlButton',
